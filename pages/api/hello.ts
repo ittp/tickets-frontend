@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Data = {
-  name: string
+  id: int, type: string, location: any, time: any, area: any, status: any, timeline: any 
 }
 
 
